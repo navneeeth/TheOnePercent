@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "792473231306",
+    "firebase_url": "https://theonepercent-a8423.firebaseio.com",
+    "project_id": "theonepercent-a8423",
+    "storage_bucket": "theonepercent-a8423.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:792473231306:android:243e0a80364946e4",
+        "android_client_info": {
+          "package_name": "com.beepbeep.theonepercent"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "792473231306-c00j8a4evatquuhkjg5bc7n6pm4l0dn5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.beepbeep.theonepercent",
+            "certificate_hash": "0379e801a508d9d83aa93e3c57ede6cc6ebcc173"
+          }
+        },
+        {
+          "client_id": "792473231306-rbl0el5819e3bvr29ul7r60nod8i8huj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdVQaa5dmk_nBvJW6U39TjF0nw4FqQJ1o"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "792473231306-rbl0el5819e3bvr29ul7r60nod8i8huj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

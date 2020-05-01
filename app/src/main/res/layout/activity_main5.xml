@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main5Activity"
+    android:background="@mipmap/errorsc1"
+    >
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="258dp"
+        android:layout_height="112dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        android:text="Oops! Looks like you had an error signing up!"
+        android:textSize="25dp"
+        android:fontFamily="@font/abel"
+        android:textColor="#c6c8ca" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="330dp"
+        android:layout_height="72dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="176dp"
+        android:fontFamily="@font/abel"
+        android:text="Error 1: Password and Email address must not be empty."
+        android:textColor="#ed3d0c" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="325dp"
+        android:layout_height="73dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="218dp"
+        android:fontFamily="@font/abel"
+        android:text="Error 2: Your password must have a minimum of 6 characters."
+        android:textColor="#ed3d0c" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="331dp"
+        android:layout_height="41dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="156dp"
+        android:fontFamily="@font/abel"
+        android:text="Error 3: You must enter a valid email address."
+        android:textColor="#ed3d0c" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="45dp"
+        android:text="Retry"
+        android:textColor="#eff4ed"
+        android:background="#000000"/>
+</RelativeLayout>

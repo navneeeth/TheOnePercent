@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main6Activity"
+    android:background="@mipmap/bw4">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="221dp"
+        android:layout_height="51dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="52dp"
+        android:text="Failed login."
+        android:fontFamily="@font/abel"
+        android:textColor="#e41f1f"
+        android:textSize="30dp"/>
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="218dp"
+        android:layout_height="49dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="207dp"
+        android:textColor="#fc4040"
+        android:textSize="20dp"
+        android:fontFamily="@font/abel"
+        android:text="ERROR 1: Mail ID and Password cannot be empty." />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="215dp"
+        android:layout_height="73dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="166dp"
+        android:fontFamily="@font/abel"
+        android:text="ERROR 2: Credentials invalid."
+        android:textColor="#fc4040"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="216dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="128dp"
+        android:text="SUPPORT:"
+        android:textColor="#6ac221"
+        android:fontFamily="@font/abel"
+        android:textSize="30dp"/>
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="67dp"
+        android:text="RETRY"
+        android:textColor="#fff"
+        android:fontFamily="@font/abel"
+        android:background="#0e0404"/>
+</RelativeLayout>
